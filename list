@@ -1,0 +1,15 @@
+fish # master
+
+bat    # https://github.com/sharkdp/bat
+delta  # https://github.com/dandavison/delta
+exa    # https://github.com/ogham/exa
+fzf    # https://github.com/junegunn/fzf
+
+dmenu    # todo
+st       # todo
+dwm      # todo
+slstatus # todo
+tabbed   # master
+surf     # todo
+
+better-lock-screen # master

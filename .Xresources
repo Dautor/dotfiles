@@ -1,0 +1,56 @@
+
+#define d_color0     #000000
+#define d_color1     #ff0000
+#define d_color2     #00ff00
+#define d_color3     #ffff00
+#define d_color4     #0000ff
+#define d_color5     #ff00ff
+#define d_color6     #00ffff
+#define d_color7     #ffffff
+#define d_color8     #555555
+#define d_color9     #ff0000
+#define d_color10    #00ff00
+#define d_color11    #ffff00
+#define d_color12    #0000ff
+#define d_color13    #ff00ff
+#define d_color14    #00ffff
+#define d_color15    #ffffff
+
+#define d_foreground #090909
+#define d_background #CD9B69
+
+*base_background: d_background
+*base_foreground: d_foreground
+
+*foreground: d_foreground
+*background: d_background
+!black
+*color0:  d_color0
+*color8:  d_color8
+!red
+*color1:  d_color1
+*color9:  d_color9
+!green
+*color2:  d_color2
+*color10: d_color10
+!yellow
+*color3:  d_color3
+*color11: d_color11
+!blue
+*color4:  d_color4
+*color12: d_color12
+!magenta
+*color5:  d_color5
+*color13: d_color13
+!cyan
+*color6:  d_color6
+*color14: d_color14
+!white
+*color7:  d_color7
+*color15: d_color15
+
+rofi.combi-modi:    window,drun,ssh
+!sidebar
+rofi.theme:         DarkBlue
+rofi.font:          Ubuntu Mono 12
+rofi.modi:          drun,ssh,window,windowcd,run

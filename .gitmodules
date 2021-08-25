@@ -1,0 +1,9 @@
+[submodule ".config/nano"]
+	path = .config/nano
+	url = git@github.com:Dautor/nano.git
+[submodule ".config/git"]
+	path = .config/git
+	url = git@github.com:Dautor/git.git
+[submodule ".config/fish"]
+	path = .config/fish
+	url = git@github.com:Dautor/fish.git
